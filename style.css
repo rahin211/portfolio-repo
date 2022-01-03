@@ -10,13 +10,14 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .decoretion{
     text-decoration: none;
@@ -29,4 +30,12 @@ section{
 .top{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.middel{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.right-padding{
+    padding-right: 180px;
 }
