@@ -8,7 +8,7 @@ h1{
 .ami{
     color: crimson;
 }
-section{
+.flexsible{
     display: flex;
     margin-bottom: 200px;
 }
@@ -38,4 +38,24 @@ section{
 }
 .right-padding{
     padding-right: 180px;
+}
+.box{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 2px;
+}
+.botom{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-web{
+    border-left: 5px solid;
+    border-image:linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
